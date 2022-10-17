@@ -1,0 +1,15 @@
+C:\Temp\IT-Academy\Task_3\CSharpBasics\bin\Debug\net6.0\CSharpBasics.exe
+C:\Temp\IT-Academy\Task_3\CSharpBasics\bin\Debug\net6.0\CSharpBasics.deps.json
+C:\Temp\IT-Academy\Task_3\CSharpBasics\bin\Debug\net6.0\CSharpBasics.runtimeconfig.json
+C:\Temp\IT-Academy\Task_3\CSharpBasics\bin\Debug\net6.0\CSharpBasics.dll
+C:\Temp\IT-Academy\Task_3\CSharpBasics\bin\Debug\net6.0\CSharpBasics.pdb
+C:\Temp\IT-Academy\Task_3\CSharpBasics\obj\Debug\net6.0\CSharpBasics.csproj.AssemblyReference.cache
+C:\Temp\IT-Academy\Task_3\CSharpBasics\obj\Debug\net6.0\CSharpBasics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Temp\IT-Academy\Task_3\CSharpBasics\obj\Debug\net6.0\CSharpBasics.AssemblyInfoInputs.cache
+C:\Temp\IT-Academy\Task_3\CSharpBasics\obj\Debug\net6.0\CSharpBasics.AssemblyInfo.cs
+C:\Temp\IT-Academy\Task_3\CSharpBasics\obj\Debug\net6.0\CSharpBasics.csproj.CoreCompileInputs.cache
+C:\Temp\IT-Academy\Task_3\CSharpBasics\obj\Debug\net6.0\CSharpBasics.dll
+C:\Temp\IT-Academy\Task_3\CSharpBasics\obj\Debug\net6.0\refint\CSharpBasics.dll
+C:\Temp\IT-Academy\Task_3\CSharpBasics\obj\Debug\net6.0\CSharpBasics.pdb
+C:\Temp\IT-Academy\Task_3\CSharpBasics\obj\Debug\net6.0\CSharpBasics.genruntimeconfig.cache
+C:\Temp\IT-Academy\Task_3\CSharpBasics\obj\Debug\net6.0\ref\CSharpBasics.dll
