@@ -1,4 +1,6 @@
 ﻿
+using System.Xml.Linq;
+
 new Homework().Task_1();
 
 class Homework
@@ -54,35 +56,36 @@ class Homework
 
     public void Task_4()
     {
-        string a = "Never";
-        string b = "say";
-        string c = "never";
-        string d = "!";
+        string a = Console.ReadLine();
+        string b = Console.ReadLine();
+        string c = Console.ReadLine();
+        string d = Console.ReadLine();
         string abcd = string.Join(" ", a, b, c, d);
         Console.WriteLine(abcd);
 
-        string a2 = "Never";
-        string b2 = "say";
-        string c2 = "never";
-        string d2 = "!";
+        string a2 = Console.ReadLine();
+        string b2 = Console.ReadLine();
+        string c2 = Console.ReadLine();
+        string d2 = Console.ReadLine();
         Console.WriteLine(string.Concat(a2, b2, c2, d2));
     }
 
     public void Task_5()
     {
-        string a = "mothkhfjkdshfdskjfhsdkjfhsker";
+        string a = Console.ReadLine();
         string b = a.Substring(2, a.Length - 2);
         string c = a.Substring(0, 2);
-        string cb = string.Join("", b, c);
+        string cb = string.Join("", c, b);
         Console.WriteLine(cb);
 
     }
 
     public void Task_6()
     {
-        string poem = "Love is the worst feeling in the world!";
-        string newadj = "best";
-        string newpoem = poem.Replace("worst", newadj);
+        string poem = Console.ReadLine();
+        string newadj = Console.ReadLine();
+        string anotheradj = Console.ReadLine();
+        string newpoem = poem.Replace(newadj, anotheradj);
         Console.WriteLine(newpoem);
     }
 
