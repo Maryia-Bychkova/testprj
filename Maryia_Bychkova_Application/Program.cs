@@ -2,6 +2,7 @@
 //Console.ReadLine();
 
 new Homework().Task_1();
+new Homework_2().Task_1();
 
 class Homework
 {
@@ -99,5 +100,179 @@ class Homework
         //Console.Write(upperString);
 
     }
+
+}
+
+
+class Homework_2
+{
+    public void Task_1()
+    {
+        Console.WriteLine("Enter the number:");
+        var numberToString = Console.ReadLine();
+        var numberToInt = Convert.ToInt32(numberToString);
+        Console.WriteLine(numberToInt);
+
+        Console.WriteLine("Enter the number:");
+        var numberToDouble = Console.ReadLine();
+        var number1ToInt = Convert.ToInt32(numberToDouble);
+        Console.WriteLine(number1ToInt);
+
+        Console.WriteLine("Enter the number:");
+        var numberToByte = Console.ReadLine();
+        var number2ToInt = Convert.ToInt32(numberToByte);
+        Console.WriteLine(number2ToInt);
+
+        Console.WriteLine("Enter the number:");
+        var numberToChar = Console.ReadLine();
+        var number3ToInt = Convert.ToInt32(numberToChar);
+        Console.WriteLine(number3ToInt);
+
+    }
+    public void Task_2()
+    {
+        Console.WriteLine("Enter the number:"); 
+        var numberToString = Console.ReadLine();
+        var numberToint = int.Parse(numberToString);
+        Console.WriteLine(numberToint);
+
+        Console.WriteLine("Enter the number:");
+        var numberToDouble = Console.ReadLine();
+        var number1Toint = int.Parse(numberToDouble);
+        Console.WriteLine(number1Toint);
+    }
+    public void Task_3()
+    {
+        Console.WriteLine("Введите значение:");
+        string? input = Console.ReadLine();
+
+        bool result = int.TryParse(input, out var number);
+        if (result == true)
+            Console.WriteLine($"Преобразование прошло успешно. Число: {number}");
+        else Console.WriteLine($"Преобразование завершилось неудачно");
+
+    }
+    public void Task_4()
+    {
+        int a = 3;
+        int b = a * 3;
+        int c = a + b;
+        Console.WriteLine($"Первая перемнная равна {a}.\nВторая переменная равна {b}.\nТретья переменная равна {c}.");
+
+    }
+
+    public void Task_5()
+    {
+        var quantity = 2;
+        var jeans = 50 * quantity;
+        var dress = 75 * quantity;
+        var blouse = 45 * quantity;
+        var shorts = 30 * quantity;
+        var shoes = 83 * quantity;
+        var sum = jeans + dress + blouse + shorts;
+        var discount = sum / 100 * 15;
+        var sum2 = sum - discount;
+        Console.WriteLine($"Стоимость товаров без скидки:{sum}.\nВаша скидка:{discount}.\nСтоимость товаров со скидкой:{sum2}.");
+    }
+    public void Task_6()
+    {
+        double a = 2;
+        double b = 3;
+        double c = a++ + b / 1;
+        Console.WriteLine(c);
+        //1) b / 2 = 3 / 1 = 3
+        // 2) a + b / 1 = 2 + 3 = 5
+        // 3) a++ = 5
+
+        double a1 = 2;
+        double b2 = 3;
+        double d = --a1 - b2 * 2;
+        Console.WriteLine(d);
+        // 1) --a = 2-1 = 1
+        // 2) b*2 = 3*2 = 6
+        // 2) --a - b/2= 1-6 = 0
+    }
+    public void Task_7()
+    {
+        int a = 5;
+        int b = 5;
+        int c = 5;
+        bool d = a == b;
+        Console.WriteLine(d);
+
+        int a = 6;
+        int b = 5;
+        int c = 5;
+        bool d = a == b;
+        Console.WriteLine(d);
+
+        bool a = true;
+        bool b = true;
+        bool c = true;
+        bool e = a && b == c;
+        Console.WriteLine(e);
+
+        bool a = true;
+        bool b = true;
+        bool c = false;
+        bool e = a && b == c;
+        Console.WriteLine(e);
+
+        int a = 2;
+        int b = 3;
+        bool m = a != b;
+        Console.WriteLine(m);
+
+        int a = 3;
+        int b = 3;
+        bool m = a != b;
+        Console.WriteLine(m);
+
+        int a = 2;
+        int b = 3;
+        bool s = a <= b;
+        Console.WriteLine(s);
+
+        int a = 4;
+        int b = 3;
+        bool s = a <= b;
+        Console.WriteLine(s);
+
+        int a = 7;
+        int b = 8;
+        int c = 9;
+        bool h = a + b > c;
+        Console.WriteLine(h);
+
+        int a = 2;
+        int b = 8;
+        int c = 9;
+        int d = 10;
+        bool h = d / a > b + c;
+        Console.WriteLine(h);
+    }
+    public void Task_8()
+        {
+        int i = 123; // упаковка
+        object o = i;
+
+        o = 123;
+        i = (int)o;  // распаковка
+    }
+
+
+        public void Task_9()
+        {
+        
+            double a = 48.76; // явное  
+            int b;
+            b = (int)a;
+
+            int x = 5; // неявное
+            double y = 15.3;
+            y = x;
+        }
+
+
 
 }
