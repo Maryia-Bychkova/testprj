@@ -115,17 +115,17 @@ class Homework_2
 
         Console.WriteLine("Enter the number:");
         var numberToDouble = Console.ReadLine();
-        var number1ToInt = Convert.ToInt32(numberToDouble);
+        var number1ToInt = Convert.ToDouble(numberToDouble);
         Console.WriteLine(number1ToInt);
 
         Console.WriteLine("Enter the number:");
         var numberToByte = Console.ReadLine();
-        var number2ToInt = Convert.ToInt32(numberToByte);
+        var number2ToInt = Convert.ToDecimal(numberToByte);
         Console.WriteLine(number2ToInt);
 
         Console.WriteLine("Enter the number:");
         var numberToChar = Console.ReadLine();
-        var number3ToInt = Convert.ToInt32(numberToChar);
+        var number3ToInt = Convert.ToUInt64(numberToChar);
         Console.WriteLine(number3ToInt);
 
     }
@@ -138,7 +138,7 @@ class Homework_2
 
         Console.WriteLine("Enter the number:");
         var numberToDouble = Console.ReadLine();
-        var number1Toint = int.Parse(numberToDouble);
+        var number1Toint = double.Parse(numberToDouble);
         Console.WriteLine(number1Toint);
     }
     public void Task_3()
@@ -196,13 +196,11 @@ class Homework_2
     {
         int a = 5;
         int b = 5;
-        int c = 5;
         bool d = a == b;
         Console.WriteLine(d);
 
         int a = 6;
         int b = 5;
-        int c = 5;
         bool d = a == b;
         Console.WriteLine(d);
 
