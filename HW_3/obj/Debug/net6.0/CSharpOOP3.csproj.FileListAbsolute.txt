@@ -1,0 +1,15 @@
+C:\Temp\IT-Academy\Task_3\HW_3\bin\Debug\net6.0\CSharpOOP3.exe
+C:\Temp\IT-Academy\Task_3\HW_3\bin\Debug\net6.0\CSharpOOP3.deps.json
+C:\Temp\IT-Academy\Task_3\HW_3\bin\Debug\net6.0\CSharpOOP3.runtimeconfig.json
+C:\Temp\IT-Academy\Task_3\HW_3\bin\Debug\net6.0\CSharpOOP3.dll
+C:\Temp\IT-Academy\Task_3\HW_3\bin\Debug\net6.0\CSharpOOP3.pdb
+C:\Temp\IT-Academy\Task_3\HW_3\obj\Debug\net6.0\CSharpOOP3.csproj.AssemblyReference.cache
+C:\Temp\IT-Academy\Task_3\HW_3\obj\Debug\net6.0\CSharpOOP3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Temp\IT-Academy\Task_3\HW_3\obj\Debug\net6.0\CSharpOOP3.AssemblyInfoInputs.cache
+C:\Temp\IT-Academy\Task_3\HW_3\obj\Debug\net6.0\CSharpOOP3.AssemblyInfo.cs
+C:\Temp\IT-Academy\Task_3\HW_3\obj\Debug\net6.0\CSharpOOP3.csproj.CoreCompileInputs.cache
+C:\Temp\IT-Academy\Task_3\HW_3\obj\Debug\net6.0\CSharpOOP3.dll
+C:\Temp\IT-Academy\Task_3\HW_3\obj\Debug\net6.0\refint\CSharpOOP3.dll
+C:\Temp\IT-Academy\Task_3\HW_3\obj\Debug\net6.0\CSharpOOP3.pdb
+C:\Temp\IT-Academy\Task_3\HW_3\obj\Debug\net6.0\CSharpOOP3.genruntimeconfig.cache
+C:\Temp\IT-Academy\Task_3\HW_3\obj\Debug\net6.0\ref\CSharpOOP3.dll
