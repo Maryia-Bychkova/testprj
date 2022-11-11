@@ -38,15 +38,15 @@ public class MyHomework
     public bool RunTask2()
     {
         Console.WriteLine("Enter 2 numbers:");
-        var FirstnumberFromConsole = Console.ReadLine();
-        var SecondnumberFromConsole = Console.ReadLine();
-        if (FirstnumberFromConsole.ToLower() == "exit" || SecondnumberFromConsole.ToLower() == "exit")
+        var firstnumberFromConsole = Console.ReadLine();
+        var secondnumberFromConsole = Console.ReadLine();
+        if (firstnumberFromConsole.ToLower() == "exit" || secondnumberFromConsole.ToLower() == "exit")
         {
             return false;
         }
 
-        int Firstnumber = int.Parse(FirstnumberFromConsole);
-        int Secondnumber = int.Parse(SecondnumberFromConsole);
+        int Firstnumber = int.Parse(firstnumberFromConsole);
+        int Secondnumber = int.Parse(secondnumberFromConsole);
 
         for (var i = Firstnumber; i <= Secondnumber; i++)
         {
@@ -98,21 +98,19 @@ public class MyHomework
         {
             Console.WriteLine("tuttu-frutti");
         }
+        else if (isDividedByTwo)
+        {
+            Console.WriteLine("tutti");
+        }
+        else if (isDividedByFive)
+        {
+            Console.WriteLine("frutti");
+        }
         else
         {
-            if (isDividedByTwo)
-            {
-                Console.WriteLine("tutti");
-            }
-            else if (isDividedByFive)
-            {
-                Console.WriteLine("frutti");
-            }
-            else
-            {
-                Console.WriteLine($"Number {number} can’t be divided on 2 or 5");
-            }
+            Console.WriteLine($"Number {number} can’t be divided on 2 or 5");
         }
+        
     }
 
 
